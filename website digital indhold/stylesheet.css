@@ -1,0 +1,144 @@
+body {
+  font-family:arial, helvetica;
+  font-size: 18;
+  line-height: 1.5;
+  color: white;
+
+}
+
+/* Global */
+ .container{
+ width: 80%;
+ margin: auto;
+ overflow: hidden; /* etc makes branding fit into the top */
+}
+
+
+
+
+
+
+
+
+/* Header */
+ header #branding {
+   float: left;
+ }
+
+
+
+
+  header {
+   background:#B51C35;
+   color:#ffffff;
+   padding-top: 30px; /* This gives the top 30px */
+   min-height: 70; /* The header can't get smaller than 70px */
+}
+
+  header a:hover {
+     color:black;
+     font-weight:bold;
+}
+
+  header a {
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-size: 24px;
+}
+
+}
+  header a:hover {
+     color:white;
+     font-weight:bold;
+}
+header li {
+  display: inline;
+  padding: 0 20px 0 20px;
+  float:right;
+  margin-top:10px;
+}
+
+
+
+
+/* Showcase */
+  #showcase {
+    min-height: 600px;
+    background: url('bones1.jpg')  0 -300px;
+    text-align: center;
+    color: #ffffff;
+    opacity: 0.7;
+}
+#showcase h1 {
+  color:#B51C35;
+  margin-top: 100px;
+  font-size: 40px;
+}
+  /* premenu */
+  #premenu {
+    padding: 0px;
+    font-size: 24px;
+    background: #B51C35;
+    text-align:center;
+  }
+
+  /* menu kort */
+  #menu{
+      padding:15px;
+      color:#ffffff;
+      background:#35424a
+}
+
+#menu .box {
+  float: left;
+  height: auto;
+  width: 33%;
+}
+
+#book-table {
+    padding: 3em;
+    background: #B51C35;
+    text-align: center;
+}
+
+
+#button1{
+  height:120px;
+  width: 450px;
+  background:#B51C35;
+  border-width:thick;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+  font-size: 40px;
+}
+#button1 a:hover {
+  color:red;
+  font-weight:bold;
+}
+
+/* om bones */
+
+#about-bones {
+  padding:15px;
+  color:#ffffff;
+  background:#35424a
+}
+
+#info-box {
+  height: 100px;
+  width: 100px;
+  float: right;
+  background: white;
+}
+
+
+footer {
+  padding: 20px;
+  margin-top: 0px;
+  color: white;
+  background-color: #B51C35;
+  text-align:center;
+
+}
